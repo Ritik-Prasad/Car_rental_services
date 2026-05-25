@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Car Rental Service</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="/script/script.js"></script>
+
+
+
+</head>
+<body>
+  <header>
+    <h1>Car Rental Service</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="admin.html">Admin</a></li>
+      <li><a href="action/review_panel.php">Reviews</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Welcome to our Car Rental Service!</h2>
+      <div class="about-section">
+        <h2>About Us</h2>
+        <p>Welcome to our car rental service! We offer a wide range of high-quality cars for rent at affordable prices. With our convenient online booking system, you can easily find and reserve the perfect car for your needs. Whether you're planning a road trip or simply need a reliable vehicle for your daily commute, we've got you covered.</p>
+        <p>Our dedicated team of professionals is committed to providing excellent customer service and ensuring a seamless car rental experience. We prioritize your satisfaction and strive to exceed your expectations with our reliable fleet, flexible rental options, and competitive rates.</p>
+        <p>Experience the freedom and convenience of renting a car with us. Browse our car selection, book online, and get ready to hit the road with confidence!</p>
+      </div>
+    <div class="car-list">
+      <div class="car">
+        <h3>LR Defender</h3>
+        <img src="images/car1.png" alt="Car 1" style="width: 200px; height: auto;">
+        <p>The Land Rover Defender is an iconic, rugged off-road vehicle known for its durability and versatility. It's rugged but luxurious also.
+            The Defender continues to be a favorite choice for outdoor enthusiasts, blending its heritage with contemporary features.</p>
+        <p>Price: 1,00,000/day</p>
+        <a href="rent_now.html"> <button>Rent Now </button> </a>
+      </div>
+      <div class="car">
+        <h3>Toyota Fortuner</h3>
+        <img src="images/car2.png" alt="Car 2" style="width: 200px; height: auto;">
+        <p>The Toyota Fortuner is a robust and versatile SUV known for its durability and off-road capabilities. With a spacious interior and advanced features, 
+            it offers a comfortable and connected driving experience. The Fortuner is a popular choice for those seeking a 
+            reliable and capable vehicle for both urban and adventurous journeys.</p>
+        <p>Price: 50,000/day</p>
+        <a href="rent_now.html"> <button>Rent Now </button> </a>
+      </div>
+      <div class="car">
+        <h3>Hyundai I20</h3>
+        <img src="images/car3.jpeg" alt="Car 3" style="width: 200px; height: auto;">
+        <p>The Hyundai i20 is a stylish and compact hatchback offering a blend of performance, comfort, and technology. 
+            With its sleek design and spacious interior, it provides a comfortable driving experience. Packed with advanced features and safety technologies, 
+            the i20 is a popular choice for those seeking a practical and modern urban car.</p>
+        <p>Price: 2,000/day</p>
+        <a href="rent_now.html"> <button>Rent Now </button> </a>
+      </div>
+      
+      <div class="contact-section">
+        <h2>Submit Your Query</h2>
+        <p>Have any questions or inquiries? Feel free to get in touch with us by filling out the form below.</p>
+        <form action="action/contact_us.php" method="POST">
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+          <textarea id="message" name="message" placeholder="Your Query" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+      <div class="review-section">
+        <h2>Submit Your Review</h2>
+        <p>Tell us about your expeirence, which type of cars you want to be available for rent in future, etc.</p>
+        <form action="action/reviews.php" method="POST">
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+          <textarea id="message" name="message" placeholder="Your Review" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2023 Car Rental Service. All rights reserved.</p>
+  </footer>
+</body>
+</html>
